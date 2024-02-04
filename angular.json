@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "L_Rajput_MyFavouriteSports": {
+    "P-Dhiman-my-favourite-Anime": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "L_Rajput_MyFavouriteSports:build:production"
+              "buildTarget": "P-Dhiman-my-favourite-Anime:build:production"
             },
             "development": {
-              "buildTarget": "L_Rajput_MyFavouriteSports:build:development"
+              "buildTarget": "P-Dhiman-my-favourite-Anime:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "L_Rajput_MyFavouriteSports:build"
+            "buildTarget": "P-Dhiman-my-favourite-Anime:build"
           }
         },
         "test": {
