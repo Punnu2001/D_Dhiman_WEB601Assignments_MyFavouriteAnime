@@ -1,3 +1,27 @@
-# D_Dhiman_WEB601Assignments_MyFavouriteAnime
+# PBialekMyFavoriteMovies
 
-Among my preferred anime, "Fullmetal Alchemist: Brotherhood" stands out as a captivating masterpiece. This series seamlessly intertwines a compelling storyline with intricately developed characters, delving into profound themes such as sacrifice, redemption, and the repercussions of wielding power. Set in a fictional world where alchemy holds a central role, the narrative follows two brothers, Edward and Alphonse Elric, as they embark on a quest to regain their lost bodies following a failed alchemical experiment. The anime adeptly blends intense action sequences with moments of emotional depth, creating a dynamic experience that oscillates between excitement and introspection. The show's meticulous world-building, intricate plot twists, and the nuanced relationships between characters contribute to its enduring popularity. "Fullmetal Alchemist: Brotherhood" not only showcases superb animation and thrilling battles but also explores the complexities of the human condition, leaving a profound and lasting impact on its audience.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/l-rajput-my-favourite-sports",
+            "outputPath": "dist/P-Dhiman-my-favourite-Anime",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -32,7 +32,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -99,6 +104,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "7721c15e-1f1f-411d-842f-02986513a58a"
   }
 }
