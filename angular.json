@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "P-Dhiman-my-favourite-Anime": {
+    "P_Bialek_MyFavoriteMovies": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "P-Dhiman-my-favourite-Anime:build:production"
+              "buildTarget": "P_Bialek_MyFavoriteMovies:build:production"
             },
             "development": {
-              "buildTarget": "P-Dhiman-my-favourite-Anime:build:development"
+              "buildTarget": "P_Bialek_MyFavoriteMovies:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "P-Dhiman-my-favourite-Anime:build"
+            "buildTarget": "P_Bialek_MyFavoriteMovies:build"
           }
         },
         "test": {
@@ -104,6 +104,6 @@
     }
   },
   "cli": {
-    "analytics": "7721c15e-1f1f-411d-842f-02986513a58a"
+    "analytics": false
   }
 }

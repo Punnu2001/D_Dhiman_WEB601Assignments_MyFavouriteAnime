@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'P-Dhiman-my-favourite-Anime' title`, () => {
+  it(`should have the 'P_Bialek_MyFavoriteMovies' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('P-Dhiman-my-favourite-Anime');
+    expect(app.title).toEqual('P_Bialek_MyFavoriteMovies');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, P-Dhiman-my-favourite-Anime');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, P_Bialek_MyFavoriteMovies');
   });
 });
