@@ -11,6 +11,6 @@ import { ContentListComponent } from './content-list/content-list.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'My favourite Anime';
+  title = "Deepak\'s favourite Anime";
 }
 
