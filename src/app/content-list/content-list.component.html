@@ -1,35 +1,36 @@
-<div class="input">
-    <input type="text" name="title" [(ngModel)]="title">
-    <button (click)="checkTitle()">Submit</button>
-</div>
 
-<p class="message" [style.color]="isFound ? 'green' : 'red'">
-    {{ message }}
-</p>
-  
-<div class="container">
-
-
-<div class="card-drama">
-    <h2>Fiction, Family Drama</h2>
-    <app-content-card *ngFor="let item of contentArray | filterType:'Fiction, Family Drama'" [content]="item"></app-content-card>
-</div>
-
-<div class="card-horror">
-    <h2>Mythological Fiction</h2>
-    <app-content-card *ngFor="let item of contentArray | filterType:'Mythological Fiction'" [content]="item"></app-content-card>
-</div>
+    <div class="input">
+        <input type="text" name="title" [(ngModel)]="title">
+        <!-- [(ngModel)]="title" -->
+        <button (click)="checkTitle()">Submit</button>
+    </div>
+    
+    <p class="message" [style.color]="isFound ? 'green' : 'red'">
+        {{ message }}
+    </p>
+      
+    <div class="container">
 
 
-
-<div class="card-comedy">
-    <h2>Classic, Legal Drama</h2>
-    <app-content-card *ngFor="let item of contentArray | filterType:'Classic, Legal Drama'" [content]="item"></app-content-card>
-</div>
-<div class="card-none">
-    <h2>No Type</h2>
-    <app-content-card *ngFor="let item of contentArray | filterType:''" [content]="item"></app-content-card>
-</div>
-
-</div>
-
+        <div class="card-drama">
+            <h2>Fiction, Family Drama</h2>
+            <app-content-card *ngFor="let item of contentArray | filterType:'Fiction, Family Drama'" [content]="item"></app-content-card>
+        </div>
+        
+        <div class="card-horror">
+            <h2>Mythological Fiction</h2>
+            <app-content-card *ngFor="let item of contentArray | filterType:'Mythological Fiction'" [content]="item"></app-content-card>
+        </div>
+        
+        
+        
+        <div class="card-comedy">
+            <h2>Classic, Legal Drama</h2>
+            <app-content-card *ngFor="let item of contentArray | filterType:'Classic, Legal Drama'" [content]="item"></app-content-card>
+        </div>
+        <div class="card-none">
+            <h2>No Type</h2>
+            <app-content-card *ngFor="let item of contentArray | filterType:''" [content]="item"></app-content-card>
+        </div>
+        
+        </div>
